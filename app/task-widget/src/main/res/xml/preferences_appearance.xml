@@ -1,0 +1,78 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1.0"
+        android:entries="@array/pref_text_size_entries"
+        android:entryValues="@array/pref_text_size_values"
+        android:key="textSizeScale"
+        android:summary="@string/appearance_text_size_desc"
+        android:title="@string/appearance_text_size_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="multiline_title"
+        android:summary="@string/appearance_multiline_title_desc"
+        android:title="@string/appearance_multiline_title_title">
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:defaultValue="auto"
+        android:entries="@array/pref_date_format_entries"
+        android:entryValues="@array/pref_date_format_values"
+        android:key="dateFormat"
+        android:summary="@string/appearance_date_format_desc"
+        android:title="@string/appearance_date_format_title" />
+
+    <ListPreference
+        android:defaultValue="RIGHT"
+        android:entries="@array/pref_day_header_alignment_entries"
+        android:entryValues="@array/pref_day_header_alignment_values"
+        android:key="dayHeaderAlignment"
+        android:summary="@string/appearance_day_header_alignment_desc"
+        android:title="@string/appearance_day_header_alignment_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="showDaysWithoutEvents"
+        android:summary="@string/appearance_show_days_without_events_desc"
+        android:title="@string/appearance_show_days_without_events_title">
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="showHeader"
+        android:summary="@string/appearance_display_header_desc"
+        android:title="@string/appearance_display_header_title">
+    </CheckBoxPreference>
+
+    <PreferenceCategory android:title="@string/appearance_group_color_title">
+        <ListPreference
+            android:defaultValue="DARK"
+            android:entries="@array/pref_theme_entries"
+            android:entryValues="@array/pref_theme_values"
+            android:key="headerTheme"
+            android:summary="@string/appearance_header_theme_desc"
+            android:title="@string/appearance_header_theme_title" />
+
+        <Preference
+            android:defaultValue="2147483648"
+            android:key="backgroundColor"
+            android:summary="@string/appearance_background_color_desc"
+            android:title="@string/appearance_background_color_title" />
+
+        <Preference
+            android:defaultValue="2147548928"
+            android:key="pastEventsBackgroundColor"
+            android:summary="@string/appearance_past_events_background_color_desc"
+            android:title="@string/appearance_past_events_background_color_title" />
+        
+        <ListPreference
+            android:defaultValue="BLACK"
+            android:entries="@array/pref_theme_entries"
+            android:entryValues="@array/pref_theme_values"
+            android:key="entryTheme"
+            android:summary="@string/appearance_entries_theme_desc"
+            android:title="@string/appearance_entries_theme_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

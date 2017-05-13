@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="pref_text_size_entries">
+        <item>@string/appearance_text_size_very_small</item>
+        <item>@string/appearance_text_size_small</item>
+        <item>@string/appearance_text_size_medium</item>
+        <item>@string/appearance_text_size_large</item>
+        <item>@string/appearance_text_size_very_large</item>
+    </string-array>
+    <string-array name="pref_text_size_values" tools:ignore="MissingTranslation">
+        <item>0.6</item>
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.25</item>
+        <item>1.75</item>
+    </string-array>
+    <string-array name="pref_date_format_entries">
+        <item>@string/appearance_date_format_auto</item>
+        <item>@string/appearance_date_format_24</item>
+        <item>@string/appearance_date_format_12</item>
+    </string-array>
+    <string-array name="pref_day_header_alignment_entries">
+        <item>@string/appearance_day_header_alignment_left</item>
+        <item>@string/appearance_day_header_alignment_center</item>
+        <item>@string/appearance_day_header_alignment_right</item>
+    </string-array>
+    <string-array name="pref_day_header_alignment_values" tools:ignore="MissingTranslation">
+        <item>LEFT</item>
+        <item>CENTER</item>
+        <item>RIGHT</item>
+    </string-array>
+    <string-array name="pref_theme_entries">
+        <item>@string/appearance_theme_black</item>
+        <item>@string/appearance_theme_dark</item>
+        <item>@string/appearance_theme_light</item>
+        <item>@string/appearance_theme_white</item>
+    </string-array>
+    <string-array name="pref_theme_values" tools:ignore="MissingTranslation">
+        <item>BLACK</item>
+        <item>DARK</item>
+        <item>LIGHT</item>
+        <item>WHITE</item>
+    </string-array>
+    <string-array name="pref_date_format_values" tools:ignore="MissingTranslation">
+        <item>auto</item>
+        <item>24</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="pref_event_range_entries">
+        <item>@string/event_range_today</item>
+        <item>@string/event_range_one_day</item>
+        <item>@string/event_range_one_week</item>
+        <item>@string/event_range_two_weeks</item>
+        <item>@string/event_range_one_month</item>
+        <item>@string/event_range_two_months</item>
+        <item>@string/event_range_three_months</item>
+        <item>@string/event_range_six_months</item>
+        <item>@string/event_range_one_year</item>
+    </string-array>
+    <string-array name="pref_event_range_values" tools:ignore="MissingTranslation">
+        <item>0</item>
+        <item>1</item>
+        <item>7</item>
+        <item>14</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>180</item>
+        <item>365</item>
+    </string-array>
+    <string-array name="pref_events_ended_entries">
+        <item>@string/this_option_is_turned_off</item>
+        <item>@string/ended_one_hour_ago</item>
+        <item>@string/ended_two_hours_ago</item>
+        <item>@string/ended_four_hours_ago</item>
+        <item>@string/ended_today</item>
+        <item>@string/ended_yesterday</item>
+    </string-array>
+    <string-array name="pref_events_ended_values" tools:ignore="MissingTranslation">
+        <item>NONE</item>
+        <item>ONE_HOUR</item>
+        <item>TWO_HOURS</item>
+        <item>FOUR_HOURS</item>
+        <item>TODAY</item>
+        <item>YESTERDAY</item>
+    </string-array>
+</resources>

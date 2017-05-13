@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="widget_padding">8dp</dimen>
+    <dimen name="calender_padding">8dp</dimen>
+    <dimen name="day_header_title">14dp</dimen>
+    <dimen name="event_entry_title">18dp</dimen>
+    <dimen name="event_entry_details">14dp</dimen>
+    <dimen name="entry_bottom_padding">2dp</dimen>
+    <dimen name="day_header_padding_bottom">2dp</dimen>
+    <dimen name="day_header_padding_right">10dp</dimen>
+    <dimen name="day_header_padding_top">12dp</dimen>
+
+</resources>

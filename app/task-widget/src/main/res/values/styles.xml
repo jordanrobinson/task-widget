@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="HeaderCurrentDate" parent="android:Widget.Holo.TextView">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/header_current_date_black</item>
+        <item name="android:textSize" tools:ignore="SpUsage">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DayHeaderTitle" parent="android:Widget.Holo.TextView">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">right|bottom</item>
+        <item name="android:paddingBottom">@dimen/day_header_padding_bottom</item>
+        <item name="android:paddingRight">@dimen/day_header_padding_right</item>
+        <item name="android:paddingTop">@dimen/day_header_padding_top</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/day_header_title_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/day_header_title</item>
+    </style>
+
+    <style name="DayHeaderSeparator" parent="android:Widget.Holo.TextView">
+        <item name="android:background">@color/day_header_separator_black</item>
+    </style>
+
+    <style name="EventEntryTitle" parent="android:Widget.Holo.TextView">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/event_entry_title</item>
+    </style>
+
+    <style name="EventEntryDetails" parent="android:Widget.Holo.TextView">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/event_entry_details_black</item>
+        <item name="android:textSize">@dimen/event_entry_details</item>
+    </style>
+
+    <style name="EventEntryColor" parent="android:Widget.Holo.TextView">
+        <item name="android:background">@android:color/holo_green_dark</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+</resources>
