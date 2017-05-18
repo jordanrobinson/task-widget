@@ -13,7 +13,7 @@ before_install:
   - export TERM=dumb
 
   # move to app directory and make gradle executable
-  - cd app/calendar-widget
+  - cd app/task-widget
   - chmod +x gradlew
 
   # environment info
